@@ -10,8 +10,8 @@ public:
 	~container();
 	container& operator = (const container<T>& obj);
 	int& operator [] (const int index);
-	friend ostream& operator << <>(ostream& out, const container<T>& other);
-	friend istream& operator >> <>(istream& out, const container<T>& other);
+	friend ostream& operator << (ostream& out, const container<T>& other);
+	friend istream& operator >> (istream& out, const container<T>& other);
 	bool operator != (const container<T>& obj);
 	bool operator < (const int value);
 private:

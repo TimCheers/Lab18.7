@@ -8,7 +8,11 @@ container<T>::container(int size)
 	data = new int[size];
 	for (int i = 0; i < size; i++)
 	{
-		data[i] = 0;
+		T tmp;
+		cout << "Введите сумму " << i + 1 << " :";
+		cin >> tmp;
+		data[i] = &tmp;
+		cout << endl;
 	}
 }
 template <class T>
@@ -55,7 +59,7 @@ int& container<T>:: operator [] (const int index)
 	}
 	else
 	{
-		cout << "Îøèáêà!";
+		cout << "Ошибка!";
 	}
 }
 template <class T>
