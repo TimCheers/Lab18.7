@@ -139,7 +139,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="container.cpp" />
     <ClCompile Include="Lab18.7.cpp" />
     <ClCompile Include="Money.cpp" />
   </ItemGroup>
